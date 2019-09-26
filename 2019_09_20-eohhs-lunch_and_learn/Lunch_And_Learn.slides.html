@@ -16650,7 +16650,7 @@ Name: Sex, dtype: int64</pre>
 <div class="prompt input_prompt">In&nbsp;[189]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">process_age</span><span class="p">(</span><span class="n">df</span><span class="p">,</span><span class="n">cut_points</span><span class="p">,</span><span class="n">label_names</span><span class="p">):</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">process_age</span><span class="p">(</span><span class="n">df</span><span class="p">,</span> <span class="n">cut_points</span><span class="p">,</span> <span class="n">label_names</span><span class="p">):</span>
     <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">fillna</span><span class="p">(</span><span class="o">-</span><span class="mf">0.5</span><span class="p">)</span>
     <span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age_categories&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">cut</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s2">&quot;Age&quot;</span><span class="p">],</span><span class="n">cut_points</span><span class="p">,</span><span class="n">labels</span><span class="o">=</span><span class="n">label_names</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">df</span>
@@ -16754,6 +16754,7 @@ Name: Sex, dtype: int64</pre>
 <li><a href="https://notebooks.azure.com/">Microsoft Azure Notebooks</a></li>
 <li><a href="https://www.kaggle.com/learn/python">Kaggle</a></li>
 <li><a href="https://www.learnpython.org/">LearnPython.com</a></li>
+<li><a href="https://coder.com/">Coder.com</a></li>
 </ul>
 
 </div>
@@ -16763,6 +16764,7 @@ Name: Sex, dtype: int64</pre>
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Additional-Resources">Additional Resources<a class="anchor-link" href="#Additional-Resources">&#182;</a></h1><ul>
+<li><a href="https://www.youtube.com/playlist?list=PLlrxD0HtieHhS8VzuMCfQD4uJ9yne1mE6">Microsoft's 44-part Python for Beginners YouTube series</a></li>
 <li><a href="https://www.realpython.com">RealPython.com</a></li>
 <li><a href="https://pbpython.com">Practical Business Python</a></li>
 <li><a href="https://talkpython.fm">Talk Python To Me Podcast</a></li>
